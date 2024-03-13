@@ -16,7 +16,7 @@ printf("value of interger pointer \n");
 printf("%d \n",*pn);
 printf("value of interger pointer \n");
 printf("%d \n",*pm);
-t=*pm**pn;
+t=*pm+*pn;
 printf("sum of numbers \n");
 printf("%d \n",t);
 return 0;
